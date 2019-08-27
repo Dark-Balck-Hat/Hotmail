@@ -3,7 +3,7 @@ Stop = False
 
 import smtplib 
 
-smtpserver = smtplib.SMTP("smtp.live.com",465)
+smtpserver = smtplib.SMTP("smtp.live.com",25)
 smtpserver.ehlo()
 smtpserver.starttls()
 print "[S O U F I A N E]"
